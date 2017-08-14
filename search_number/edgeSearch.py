@@ -47,10 +47,3 @@ def es(G):
 
     return esG
 
-t0 = time.clock()
-
-G = nx.house_x_graph()
-print es(G)
-
-t1 = time.clock()
-print 'Took: ', t1 - t0, 'seconds'
