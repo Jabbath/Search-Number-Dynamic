@@ -2,7 +2,7 @@
 
 This is a networkx package that finds the mixed edge search number or edge search number of a graph. The package takes a dynamic programming approach to the
 problem LINEAR-WIDTH, which can be related to searching by the techniques presented in "Computing Small Search Numbers in Linear Time" by Bodlaender et. al. 
-This program runs in O(m!), where m is the numer of edges. 
+This program runs in O(m!), where m is the number of edges. 
 However, in practice the algorithm tends to terminate quickly for some graphs with less than 20 edges.
 
 ## Usage
