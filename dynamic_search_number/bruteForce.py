@@ -76,7 +76,7 @@ def linK(G, k):
             return less
 
         FSi = newFSi[:]
-        print 'Made a new FSi with length: ', len(FSi)
+        #print 'Made a new FSi with length: ', len(FSi)
 
     less = True
     return less
