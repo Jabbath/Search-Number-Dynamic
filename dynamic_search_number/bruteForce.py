@@ -94,10 +94,10 @@ def linearWidth(G):
     '''
     #Check k until we find one where lin-width is less than k
     width = 1
-    print 'Starting a new round to check width: ', width, '\n'
+    #print 'Starting a new round to check width: ', width, '\n'
 
     while not linK(G, width):
         width = width + 1
-        print 'Starting a new round to check width: ', width, '\n'
+        #print 'Starting a new round to check width: ', width, '\n'
 
     return width
