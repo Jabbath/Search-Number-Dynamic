@@ -10,7 +10,7 @@ However, in practice the algorithm tends to terminate quickly for some graphs wi
 First, you must have a connected graph for input. Then, you can calculate the 
 mixed edge search number or edge search number by the following:
 
-```
+```python
 import networkx as nx
 from dynamic_search_number.mixedSearch import ms
 from dynamic_search_number.edgeSearch import es
